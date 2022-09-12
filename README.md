@@ -16,3 +16,10 @@ yarn install
 ```
 docker-compose up -d
 ```
+
+6. Execute yarn start:dev
+
+7. Execute Seed
+```
+http://localhost:3000/api/v1/seed
+```
