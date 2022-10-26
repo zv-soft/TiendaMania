@@ -61,6 +61,12 @@ export class AuthService {
     };    
   }
 
+  /**
+   * Check Status
+   * 
+   * @param user 
+   * @returns 
+   */
   async checkAuthStatus(user:User){  
 
     if(!user.isActive)
